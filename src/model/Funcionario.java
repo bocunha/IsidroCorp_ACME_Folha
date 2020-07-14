@@ -8,6 +8,30 @@ public abstract class Funcionario {
 	
 	// aqui posso ter métodos get/set e constutor
 	
+	public int getNumRegistro() {
+		return numRegistro;
+	}
+
+	public void setNumRegistro(int numRegistro) {
+		this.numRegistro = numRegistro;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
 	public Funcionario(int numRegistro, String nome, String email) {
 		this.numRegistro = numRegistro;
 		this.nome        = nome;
