@@ -16,10 +16,12 @@ public class FolhaDePagamento {
 		folha[2] = new Horista(3,"Isidro Horista","isidro@acme.com", 100.0, 15);
 		folha[3] = new Empreiteiro(4,"Isidro Empreiteiro","isidro@acme.com", 12500.00);
 
+		System.out.printf("|o| Nome do Cabra:      | Salario do Cabra: |o|\n");
 		for ( Funcionario f  : folha ) {
-			System.out.println("Nome do Cabra: "+f.getNome()
-								+"\nSalario do cabra: "+f.calcularSalario()
-								+"\n----------------------------");
+//			System.out.println("Nome do Cabra: "+f.getNome()
+//								+"\nSalario do cabra: "+f.calcularSalario()
+//								+"\n------------------------------------");
+			System.out.printf("|o| %-20s| %17.2f |o|\n",f.getNome(),f.calcularSalario());
 		}
 	}
 
