@@ -42,6 +42,6 @@ public abstract class Funcionario {
 	 * todos os filhos desta classe são OBRIGADOS a implementar a lógica deste método
 	 */
 	public abstract double calcularSalario();
-	
+
 
 }
